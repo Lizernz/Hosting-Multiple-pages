@@ -9,6 +9,9 @@
     
 </head>
 <style>
+
+
+
      h1 {
     font-size: 80px;
     }
@@ -29,6 +32,24 @@
         background-color: aquamarine;
     }
     
+    @media (min-width: 768px) {
+  body {text-align: left;
+    color: white;
+    background-color: black;
+    font-size: 50px;
+}
+}
+
+@media (max-width: 768px) {
+  body {text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+}
+
+
+}
+
 </style>
 <body>
 
@@ -55,7 +76,7 @@
         </div>
       </nav>
 
-    <h1 class="text-center border"> About me </h1> 
+    <h1 class="text-center border d-none d-sm-block"> About me </h1> 
    
     <h2 class="text-center ">A Front-end developer based in the South West of England</h2>
     <p class="text-center">A Front-End Developer is someone who creates websites and web applications. The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works. You can think of Front-End as client-side and Back-End as server-side.</p>
@@ -70,13 +91,13 @@
                 </div>
             </div>
     
-            <div class="col-sm-4 mb-4">
+            <div class="col-sm-4 mb-4 d-none d-sm-block">
                 <div class="border p-4 pl-5 shadow">
                     <img src="https://img.freepik.com/free-vector/watercolor-weather-effects-collection_23-2149115331.jpg" class="img-fluid" alt="weatherapp">
                 </div>
             </div>
     
-            <div class="col-sm-4 mb-4">
+            <div class="col-sm-4 mb-4 d-none d-sm-block">
                 <div class="border p-3 shadow">
                     <img src="https://htmlcodex.com/wp-content/uploads/2020/09/free-yoga-website-template.jpg" class="img-fluid" alt="yogatemplate">
                 </div>
